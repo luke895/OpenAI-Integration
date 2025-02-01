@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Software_Discussed__c</fullName>
+    <label>Software Discussed</label>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AutoCAD</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Revit</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Fusion 360</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>3ds Max</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <trackHistory>false</trackHistory>
+    <required>false</required>
+    <visibleLines>4</visibleLines>
+</CustomField>

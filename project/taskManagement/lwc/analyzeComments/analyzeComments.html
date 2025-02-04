@@ -1,0 +1,8 @@
+<template>
+    <!-- Analyze Comments Button -->
+    <lightning-button label="Analyze Comments" onclick={analyzeComments}></lightning-button>
+
+    <!-- Render only the existing chips (derived from Software_Discussed__c) -->
+    <template for:each={computedOptions} for:item="option">
+    </template>
+</template>

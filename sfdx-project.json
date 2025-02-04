@@ -1,10 +1,19 @@
 {
-    "namespace": "",
-    "sourceApiVersion": "57.0",
-    "packageDirectories": [
-        {
-            "path": "force-app",
-            "default": true
-        }
-    ]
+  "packageDirectories": [
+    {
+      "path": "Project",
+      "default": false
+    },
+    {
+      "path": "Project1",
+      "default": false
+    },
+    {
+      "path": "ProjectHealthScore",
+      "default": true
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "57.0"
 }

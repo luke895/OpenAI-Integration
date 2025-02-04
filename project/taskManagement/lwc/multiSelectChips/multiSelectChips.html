@@ -1,0 +1,27 @@
+<template>
+    <div class="container">
+        <div class="heading">Software Discussed:</div>
+        <div class="content">
+            <div class="chip-container">
+                <template for:each={options} for:item="option">
+                    <div key={option.value}
+                         class={option.class}
+                         data-value={option.value}
+                         onclick={handleChipClick}>
+                        {option.label}
+                    </div>
+                </template>
+                <!-- Input for adding a new chip -->
+                <div class="manual-entry">
+                    <input id="customSoftwareInput"
+                           name="customSoftwareInput"
+                           type="text"
+                           placeholder="Add custom software"
+                           value={newSoftware}
+                           oninput={handleInputChange}
+                           onkeydown={handleKeyDown} />
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

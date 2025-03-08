@@ -5,11 +5,15 @@
       "default": false
     },
     {
-      "path": "Project1",
+      "path": "ProjectHealthScore",
       "default": false
     },
     {
-      "path": "ProjectHealthScore",
+      "path": "ProjectQuoteTermsAndConditions",
+      "default": false
+    },
+    {
+      "path": "ProjectAIPopulate",
       "default": true
     }
   ],

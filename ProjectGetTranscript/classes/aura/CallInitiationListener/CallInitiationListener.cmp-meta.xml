@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuraDefinitionBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <description>Listens for Call Initiated events and navigates to Task record page</description>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__UtilityBar</target>
+        <target>flexipage:availableForAllPageTypes</target>
+    </targets>
+</AuraDefinitionBundle>
